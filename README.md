@@ -9,3 +9,8 @@ Try to keep runtime under O(n2).
 Join the supplied customers file to the supplied orders file. Using the keys `cid` and `customer_id` respectively.
 
 What to submit: The length of the resulting array and the total for orders placed by Barry and Steve. 
+
+
+# instructions on running
+./solution.py <col1> <col2> [<file1>] [<file2>]
+notice that the files are optional. If not specified the program will use the default urls.
