@@ -1,2 +1,2 @@
-./solution.py  cid customer_id > output
-[{"cid": 1, "price": 2.5, "oid": 1, "customer_id": 1, "name": "Barry"}, {"cid": 1, "price": 10, "oid": 7, "customer_id": 1, "name": "Barry"}, {"cid": 2, "price": 2, "oid": 4, "customer_id": 2, "name": "Todd"}, {"cid": 3, "price": 5, "oid": 2, "customer_id": 3, "name": "Steve"}, {"cid": 3, "price": 2, "oid": 3, "customer_id": 3, "name": "Steve"}, {"cid": 5, "price": 4, "oid": 6, "customer_id": 5, "name": "Rodney"}]
+USAGE: solution.py <column1> <column2> 
+ Those two corresponds two url1 and url2 respectivly

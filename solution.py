@@ -31,16 +31,29 @@ def main(argv):
 
 	result = list()
 
+	#count barry and steve while building the solution
+	barryCounter = 0
+	steveCounter = 0
 	for customer in customers:
-		result+= [ update(customer, order) for order in orders if order[col2] == customer[col1] ]
+		for order in orders:
+			if order[col2] == customer[col1]:
+				result.append(update(customer, order))
+				if(customer[col1] == 1): # this is for barry
+					barryCounter+=1
+				elif(customer[col1] == 3): # this is for steve
+					steveCounter+=1
 
 	print(json.dumps(result))
 
-#def update add customer information to the merged list
+	print("\nbarry counter is " + str(barryCounter))
+	print("steve counter is " + str(steveCounter))
+
+#def update add customer information to the merged list also it counts
 def update(customer, order):
 	#precondition those two should have a matching id
 	dict1 = order.copy()
 	dict2 = customer.copy()
+
 	return (dict(dict1, **dict2))
 
 
