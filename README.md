@@ -1,4 +1,4 @@
-# shopify-dataengineering-infrastructureproblem
+# shopify-data-engineering-infrastructure-challenge
 shopify-dataengineering-infrastructureproblem
 
 #Data Engineering / Infrastructure Problem
